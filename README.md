@@ -4,7 +4,7 @@ This project provides a CleanStart container image for **Trust Manager**, a Kube
 
 **📌 CleanStart Foundation:** Security-hardened, minimal base OS designed for enterprise containerized environments.
 
-**Image Path:** `cleanstart/trust-manager`
+**Image Path:** `ghcr.io/cleanstart-containers/trust-manager`
 
 **Registry:** CleanStart Registry
 
@@ -37,7 +37,7 @@ The Trust Manager container project is organized into the following structure:
 
 ## Container Image
 
-**Image:** `cleanstart/trust-manager:latest-dev`
+**Image:** `ghcr.io/cleanstart-containers/trust-manager:latest-dev`
 
 The container image includes:
 
@@ -96,15 +96,15 @@ Before deploying, you must:
 
 ### Pull Commands
 ```bash
-docker pull cleanstart/trust-manager:latest
-docker pull cleanstart/trust-manager:latest-dev
+docker pull ghcr.io/cleanstart-containers/trust-manager:latest
+docker pull ghcr.io/cleanstart-containers/trust-manager:latest-dev
 ```
 
 ### Run Commands
 
 Basic test:
 ```bash
-docker run -it --name trust-manager-test cleanstart/trust-manager:latest-dev
+docker run -it --name trust-manager-test ghcr.io/cleanstart-containers/trust-manager:latest-dev
 ```
 
 Production deployment:
@@ -113,7 +113,7 @@ docker run -d --name trust-manager-prod \
   --read-only \
   --security-opt=no-new-privileges \
   --user 1000:1000 \
-  cleanstart/trust-manager:latest
+  ghcr.io/cleanstart-containers/trust-manager:latest
 ```
 
 ---
@@ -163,8 +163,8 @@ CleanStart images support multiple architectures to ensure compatibility across 
 
 ### Architecture-based Pull Commands
 ```bash
-docker pull --platform linux/amd64 cleanstart/trust-manager:latest
-docker pull --platform linux/arm64 cleanstart/trust-manager:latest
+docker pull --platform linux/amd64 ghcr.io/cleanstart-containers/trust-manager:latest
+docker pull --platform linux/arm64 ghcr.io/cleanstart-containers/trust-manager:latest
 ```
 
 ---

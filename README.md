@@ -183,16 +183,21 @@ The current Kubernetes deployment runs Trust Manager as a controller with webhoo
 
 ---
 
-## Resources
-
-- **Official Documentation:** https://cert-manager.io/docs/trust/trust-manager/
-- **Trust Manager GitHub Repository:** https://github.com/cert-manager/trust-manager
-- **Provenance / SBOM / Signature:** https://images.cleanstart.com/images/trust-manager
-- **Docker Hub:** https://hub.docker.com/r/cleanstart/trust-manager
-- **CleanStart All Images:** https://images.cleanstart.com
-- **CleanStart Community Images:** https://hub.docker.com/u/cleanstart
-
----
+## Documentation Resources
+Essential links and resources for further information
+ 
+**CleanStart Images**: https://images.cleanstart.com/
+ 
+**Community Images**:
+**Docker Hub**: https://hub.docker.com/u/cleanstart<br>
+**GitHub**: https://github.com/cleanstart-containers<br>
+**AWS ECR Public Gallery**: https://gallery.ecr.aws/cleanstart/
+ 
+**Presence on Social Media**:
+**Community**: https://www.linkedin.com/groups/18324021/<br>
+**YouTube**: https://www.youtube.com/@CleanStartOfficial<br>
+ 
+**Contribute to Container Use Cases**: https://github.com/cleanstart-dev/cleanstart-use-cases/
 
 ## Disclaimer & License
 
